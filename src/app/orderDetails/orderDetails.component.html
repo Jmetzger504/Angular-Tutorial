@@ -1,0 +1,13 @@
+<h1>Order Details</h1>
+
+<ul>
+    <li>Order Id: + {{orderId}}</li>
+    <li>Customer Id: + {{customerId}}</li>
+    <li>Item Ids:
+        <ol>
+            <li *ngFor = "let id of itemIds">{{id}}</li>
+        </ol>
+    </li>
+    
+  
+</ul>
